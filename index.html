@@ -1,60 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mother's Day</title>
+
+    <title>Mother's Day Family Website</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">Mother's Day</h1>
+    <!-- NAVBAR -->
+    <nav class="navbar">
 
-            <div class="menu-toggle" id="menu-toggle">
-                ☰
-            </div>
+        <div class="logo">
+            Mother's Day 💖
+        </div>
 
-            <ul class="nav-links" id="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Family Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#gallery">Gallery</a>
+            </li>
+
+        </ul>
+
+        <button id="music-btn">
+            Play Music 🎵
+        </button>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
         <div class="hero-content">
-            <h2>Happy Mother's Day 💖</h2>
+
+            <h1>
+                Happy Mother's Day 💐
+            </h1>
+
             <p>
-                Celebrating all the amazing mothers and mother figures in our family.
+                Celebrating the amazing mothers and mother figures in our family.
+                Thank you for the love, support, strength, and memories.
             </p>
 
-            <a href="gallery.html" class="btn">
-                View Family Pictures
+            <a href="#gallery" class="btn">
+                View Family Gallery
             </a>
+
         </div>
+
     </section>
 
-    <!-- Welcome Section -->
-    <section class="welcome-section">
-        <h2>Welcome</h2>
+    <!-- GALLERY SECTION -->
+    <section class="gallery-section" id="gallery">
+
+        <h2 class="gallery-title">
+            Family Mothers Gallery 📸
+        </h2>
+
+        <div class="gallery-grid">
+
+            <!-- CARD 1 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 1">
+                <h3>Mom 1</h3>
+                <p>Beautiful memories and love.</p>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 2">
+                <h3>Mom 2</h3>
+                <p>Always caring and supportive.</p>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 3">
+                <p>Strength and kindness every day.</p>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 4">
+                <p>Family heart and inspiration.</p>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 5">
+                <p>Smiles that brighten every moment.</p>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 6">
+                <p>Endless support and guidance.</p>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 7">
+                <p>Love that never fades.</p>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 8">
+                <p>Always bringing joy to the family.</p>
+            </div>
+
+            <!-- CARD 9 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 9">
+                <p>Amazing memories together.</p>
+            </div>
+
+            <!-- CARD 10 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 10">
+                <p>Forever appreciated and loved.</p>
+            </div>
+
+            <!-- CARD 11 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 11">
+                <p>The heart of the family.</p>
+            </div>
+
+            <!-- CARD 12 -->
+            <div class="gallery-card">
+                <img src="https://via.placeholder.com/400x300" alt="Mother 12">
+                <p>Happy Mother's Day 💖</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
 
         <p>
-            This website is a special place dedicated to the mothers in our family.
-            Share memories, photos, and heartfelt messages all in one beautiful space.
+            Made with ❤️ for Mother's Day
         </p>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>Made with ❤️ for Mother's Day</p>
     </footer>
 
+    <!-- AUDIO -->
+    <audio id="bg-music" loop autoplay>
+
+        <source src="music/song.mp3" type="audio/mpeg">
+
+    </audio>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
-
-
