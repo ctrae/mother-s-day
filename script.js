@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
         playPromise.catch(() => {
 
             musicBtn.textContent =
-            "Play Music 🎵";
+            "🎵";
 
         });
 
@@ -40,14 +40,8 @@ musicBtn.addEventListener("click", () => {
 
         music.play();
 
-        musicBtn.textContent =
-        "Pause ⏸";
-
     } else {
 
         music.pause();
-
-        musicBtn.textContent =
-        "Play 🎵";
     }
 });
